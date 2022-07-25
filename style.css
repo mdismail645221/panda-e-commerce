@@ -63,7 +63,13 @@ nav form input[type=search] {
     border-radius: 0;
 }
 
-
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    /* z-index: 2; */
+    margin-top: 85px;
+}
 .carousel-indicators [data-bs-target] {
     box-sizing: content-box;
     flex: 0 1 auto;
