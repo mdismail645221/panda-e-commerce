@@ -156,5 +156,17 @@ input[type="email"]{
     padding: 4em;
     border-radius: 30px;
 }
+button#btn-box {
+    background: var(--btn-color);
+    padding: 16px 32px;
+    color: #fff;
+    border: 1px solid var(--btn-color);
+    border-radius: 7px;
+    font-weight: 900;
+}
 
-
+@media only screen and (max-width:768px) {
+    .footer p {
+        font-size: 10px;
+    }
+}
