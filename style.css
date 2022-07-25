@@ -81,14 +81,16 @@ nav form input[type=search] {
 
 /* --------------catagories area styles---------------  */
 
-.Categories-area .col-md-4 {
-    border: 1px solid red;
-    margin-left: 0;
-    width: 32%;
+.shoes-link a {
+    color: #FF9D00;
+    font-size: 1.3rem;
+    font-weight: 500;
 }
-
-.Categories-area .row {
-    gap: 10px;
+.shoes-link a:hover {
+    color: #FF9D00;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-decoration: underline;
 }
 
 div#watch {
@@ -122,7 +124,7 @@ div#shoes {
 }
 .backpack-area, .Shoes-area{
     background: #F4F4F4;
-    padding: 4em 0;
+    padding: 2em 0;
 }
 /* footer styles */
 .footer{
