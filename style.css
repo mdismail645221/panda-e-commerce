@@ -33,7 +33,14 @@ body{
     --h1-color:#1F1F1F;
     --money-text-color:#FF136F;
 }
-
+a#btn-box {
+    background: var(--btn-color);
+    padding: 16px 32px;
+    color: #fff;
+    border: 1px solid var(--btn-color);
+    border-radius: 7px;
+    font-weight: 900;
+}
 /* ---------------
     main css-
 ---------------- */
@@ -112,6 +119,9 @@ div#shoes {
 .Categories-area {
     padding: 3em 0;
 }
+.Categories-area img {
+    width: 100px;
+}
 /* ---------------shoes area styles----------- */
 .shoes-title-area {
     display: flex;
@@ -127,20 +137,20 @@ div#shoes {
     padding: 2em 0;
 }
 /* footer styles */
-.footer{
+.subscribers-area {
     background-color: #fff;
     margin: 3em 0;
     padding: 2em 0;
     text-align: center;
 }
 input[type="email"]{
-    width: 50%;
+    width: 400px;
 }
-.footer form{
+.subscribers-area form {
     display: flex;
     justify-content: center;
 }
-.footer .container{
+.subscribers-area .container {
     background-color: #FFF2F1;
     min-height: 100%;
     padding: 4em;
