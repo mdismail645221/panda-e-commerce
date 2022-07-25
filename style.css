@@ -1,0 +1,148 @@
+/* google fonts popins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ----default css------- */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+}
+li{
+    list-style: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 22px;
+    background-color: #fff;
+    color: #000;
+}
+:root{
+    --btn-color:linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+                border-radius: 6px;
+    --f-w-color:linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+    --th-w-color:linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+    --p-color:#4E4E4E;
+    --see-more-color:#FF9D00;
+    --h1-color:#1F1F1F;
+    --money-text-color:#FF136F;
+}
+
+/* ---------------
+    main css-
+---------------- */
+
+
+/* .....nav style..... */
+
+nav form input[type=search] {
+    border-radius: 25px;
+    background: #F1F1F1;
+    color: #BABABA;
+    width: 500px;
+}
+
+/*.............. slider-area styles ...............*/
+
+.card.mb-3 {
+    background: #FEEAE9;
+    border: none;
+    border-radius: 0;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 5px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: red;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+.carousel-indicators .active{
+    background-color: blue;
+}
+
+/* --------------catagories area styles---------------  */
+
+.Categories-area .col-md-4 {
+    border: 1px solid red;
+    margin-left: 0;
+    width: 32%;
+}
+
+.Categories-area .row {
+    gap: 10px;
+}
+
+div#watch {
+    background: var(--f-w-color);
+    /* padding: .5em 3em; */
+    color: #fff;
+}
+
+div#bag {
+    background: var(--btn-color);
+    /* padding: .em 3em; */
+    color: #fff;
+}
+div#shoes {
+    background: var(--th-w-color);
+    color: #fff;
+    /* padding: .5em 3em; */
+}
+.Categories-area {
+    padding: 3em 0;
+}
+/* ---------------shoes area styles----------- */
+.shoes-title-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.col-md-6.d-flex.justify-content-right {
+    display: flex;
+    justify-content: flex-end;
+}
+.backpack-area, .Shoes-area{
+    background: #F4F4F4;
+    padding: 4em 0;
+}
+/* footer styles */
+.footer{
+    background-color: #fff;
+    margin: 3em 0;
+    padding: 2em 0;
+    text-align: center;
+}
+input[type="email"]{
+    width: 50%;
+}
+.footer form{
+    display: flex;
+    justify-content: center;
+}
+.footer .container{
+    background-color: #FFF2F1;
+    min-height: 100%;
+    padding: 4em;
+    border-radius: 30px;
+}
+
+
